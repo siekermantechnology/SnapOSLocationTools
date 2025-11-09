@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/11428660-2b7c-4e99-a3ee-24474aed1199>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 282836e9-bc27-4ef7-ab83-856b9af4850a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 282836e9-bc27-4ef7-ab83-856b9af4850a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 72f7b6f4-1812-4b3a-8945-927e42966dde
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/72f7b6f4-1812-4b3a-8945-927e42966dde>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 33d2437d-2f11-4a48-9946-5558370e8278
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    floatingDetailsUIContentManager: false
+    floatingDetailsUIFrame: false
+    handLockedUIBackPlate: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handLockedUIBackPlate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      floatingDetailsUIContentManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      floatingDetailsUIFrame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject handLockedUIBackPlate
+    - // @input AssignableType floatingDetailsUIContentManager
+    - // @input SceneObject floatingDetailsUIFrame

@@ -1,0 +1,119 @@
+- !<AssetImportMetadata/7b9c731c-3679-485f-ba97-0c5b08b54fca>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5f7936cd-148f-455c-820d-a84dbe4da507
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5f7936cd-148f-455c-820d-a84dbe4da507
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> dd9d6e2d-1e8c-4d01-b3c2-dc9f834aead1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/dd9d6e2d-1e8c-4d01-b3c2-dc9f834aead1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 20dd24a2-c6a8-4174-8407-0ec431ea3b25
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableMapSmoothing: false
+    enableScrolling: false
+    isMinimapAutoRotate: false
+    latitude: false
+    longitude: false
+    mapPinCursorDetectorSize: false
+    mapPinPrefab: false
+    mapPinsRotated: false
+    mapRenderParent: false
+    mapUpdateThreshold: false
+    mapZoomLevel: false
+    rotation: false
+    scrollingFriction: false
+    setMapToCustomLocation: false
+    showUserPin: false
+    startedAsMiniMap: false
+    tileCount: false
+    userPinAlignedWithOrientation: false
+    userPinScale: false
+    userPinVisual: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - tileCount: !<float> 2.000000
+      mapRenderParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mapZoomLevel: !<float> 0.000000
+      showUserPin: false
+      userPinVisual: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      userPinScale: !<Vec2> {x: 0.000000, y: 0.000000}
+      userPinAlignedWithOrientation: false
+      mapPinPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      mapPinsRotated: false
+      mapPinCursorDetectorSize: 0.020000
+      enableScrolling: false
+      scrollingFriction: !<float> 4.000000
+      setMapToCustomLocation: false
+      longitude: ""
+      latitude: ""
+      rotation: !<float> 0.000000
+      isMinimapAutoRotate: false
+      enableMapSmoothing: false
+      mapUpdateThreshold: !<float> 0.000000
+      startedAsMiniMap: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float tileCount = 2
+    - // @input SceneObject mapRenderParent
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Zoom level: 8 far zoom , 21 close zoom"}'
+    - '// @input float mapZoomLevel {"widget":"slider", "min":8, "max":21, "step":1}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"If user pin should be shown in the ma"}'
+    - // @input bool showUserPin
+    - '// @ui {"widget":"group_start", "label":"User Pin", "showIf":"showUserPin", "showIfValue":true}'
+    - // @input Asset.ObjectPrefab userPinVisual
+    - // @input vec2 userPinScale
+    - // @input bool userPinAlignedWithOrientation
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Map Pins"}'
+    - '// @ui {"widget":"label", "label":"Make sure your Pin Prefab has ScreenTransform"}'
+    - // @input Asset.ObjectPrefab mapPinPrefab
+    - '// @input bool mapPinsRotated {"hint":"All the map pins will rotate according to map rotation if enabled"}'
+    - '// @input float mapPinCursorDetectorSize = 0.02 {"hint":"A cicle shape detector is used to detect cursor"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Interactions"}'
+    - // @input bool enableScrolling
+    - // @input float scrollingFriction = 4
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"For setting map location to custom location (not following user location)"}'
+    - // @input bool setMapToCustomLocation
+    - '// @ui {"widget":"group_start", "label":"Custom Location", "showIf":"setMapToCustomLocation", "showIfValue":true}'
+    - // @input string longitude
+    - // @input string latitude
+    - // @input float rotation
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Rotations"}'
+    - // @input bool isMinimapAutoRotate
+    - // @input bool enableMapSmoothing
+    - '// @ui {"widget":"label", "label":"How often map should be updated (seconds)"}'
+    - // @input float mapUpdateThreshold
+    - // @input bool startedAsMiniMap

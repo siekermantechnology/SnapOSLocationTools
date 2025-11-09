@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/9cb6b0cb-a0a5-421b-a14f-8e153ec727c4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 507fd441-a809-44eb-ba4d-3ddcd04d6bdb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 507fd441-a809-44eb-ba4d-3ddcd04d6bdb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a39b47d7-cc60-4c95-9428-c26072cd23ec
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a39b47d7-cc60-4c95-9428-c26072cd23ec>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 42ba915d-7277-4140-80e5-328c26583585
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    floatingDetailsUIFrame: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - floatingDetailsUIFrame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject floatingDetailsUIFrame

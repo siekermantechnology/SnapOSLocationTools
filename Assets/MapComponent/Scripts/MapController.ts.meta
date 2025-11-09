@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/a83e49a8-e174-481a-9c1d-d597368c9f3f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a2224230-6e3c-457c-9445-aa6ca773bc0d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a2224230-6e3c-457c-9445-aa6ca773bc0d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e1056c25-2170-41f2-b1e8-438f4374ff28
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e1056c25-2170-41f2-b1e8-438f4374ff28>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 62749a98-87c7-4a18-9510-66d57c9afb75
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    lineMaterial: false
+    mapModule: false
+    mapRenderPrefab: false
+    mapTilePrefab: false
+    placesProvider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mapModule: !<reference.MapModule> 00000000-0000-0000-0000-000000000000
+      mapTilePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      lineMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      mapRenderPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      placesProvider: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.MapModule mapModule
+    - // @input Asset.ObjectPrefab mapTilePrefab
+    - // @input Asset.Material lineMaterial
+    - // @input Asset.ObjectPrefab mapRenderPrefab
+    - // @input AssignableType placesProvider

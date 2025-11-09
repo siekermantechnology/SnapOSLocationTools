@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/713f1633-1edd-442c-a868-dadcf4311c7e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0eb21dc1-03b6-41d6-b2e2-0cbbd19375f3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0eb21dc1-03b6-41d6-b2e2-0cbbd19375f3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> afdc5fc1-24bb-4b2c-890b-28f5c6d34311
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/afdc5fc1-24bb-4b2c-890b-28f5c6d34311>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c3d11c6b-cc91-43ec-8754-76918ef872b4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    locationDataText: false
+    locationManager: false
+    mapComponent: false
+    mobileKitManager: false
+    mobileKitManagerSceneObject: false
+    mobileKitText: false
+    startMobileKitButton: false
+    startMobileKitButtonText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mapComponent: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      locationManager: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      locationDataText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      mobileKitManagerSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mobileKitManager: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      startMobileKitButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      startMobileKitButtonText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      mobileKitText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType mapComponent
+    - // @input AssignableType_1 locationManager
+    - // @input Component.Text locationDataText
+    - // @input SceneObject mobileKitManagerSceneObject
+    - // @input AssignableType_2 mobileKitManager
+    - // @input AssignableType_3 startMobileKitButton
+    - // @input Component.Text startMobileKitButtonText
+    - // @input Component.Text mobileKitText

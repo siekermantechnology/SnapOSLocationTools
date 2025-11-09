@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/3228ba5b-0495-4c07-9624-033964dabb7c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cc185ddd-ca4e-4baf-b37c-042faa07deca
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cc185ddd-ca4e-4baf-b37c-042faa07deca
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4954bc0e-6564-46bf-9d23-aa429dcf670b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4954bc0e-6564-46bf-9d23-aa429dcf670b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6ed97976-6019-440e-b932-3ec98247af60
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accuracyValueText: false
+    compassImage: false
+    gpsStatusBlueImage: false
+    gpsStatusGreenImage: false
+    gpsStatusRedImage: false
+    gpsStatusWhiteImage: false
+    gpsStatusYellowImage: false
+    headingValueText: false
+    locationManager: false
+    sourceValueText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - locationManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      gpsStatusWhiteImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      gpsStatusRedImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      gpsStatusBlueImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      gpsStatusYellowImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      gpsStatusGreenImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      sourceValueText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      accuracyValueText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      compassImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      headingValueText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType locationManager
+    - // @input Component.Image gpsStatusWhiteImage
+    - // @input Component.Image gpsStatusRedImage
+    - // @input Component.Image gpsStatusBlueImage
+    - // @input Component.Image gpsStatusYellowImage
+    - // @input Component.Image gpsStatusGreenImage
+    - // @input Component.Text sourceValueText
+    - // @input Component.Text accuracyValueText
+    - // @input Component.Image compassImage
+    - // @input Component.Text headingValueText

@@ -1,0 +1,89 @@
+- !<AssetImportMetadata/3e608112-4c84-4e37-9082-718ef0710e80>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 1e84c29e-051a-4503-9c5c-1ffac2646a13
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 1e84c29e-051a-4503-9c5c-1ffac2646a13
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 025d767b-ef37-4a19-809a-d553191aaf38
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/025d767b-ef37-4a19-809a-d553191aaf38>
+  Prototype: !<ObjectOwner/267ac5e7-c370-4462-8b41-310a8da36f4a>
+    PackagePath: ""
+    objects:
+      - !<own> c2d25c7a-f36e-4e2d-487d-dbc89fbae7e0
+- !<ScreenTransform/44bbd881-dc3e-49ee-6498-2decb2b5c0fa>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/c2d25c7a-f36e-4e2d-487d-dbc89fbae7e0>
+  PrefabRemaps:
+    []
+  Name: TilePrefab
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 44bbd881-dc3e-49ee-6498-2decb2b5c0fa
+    - !<own> c61d5470-b1a0-4052-41bd-6a6da2858aa2
+- !<Image/c61d5470-b1a0-4052-41bd-6a6da2858aa2>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6f4707f6-0d1f-485b-aa77-e74481078f7f
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
