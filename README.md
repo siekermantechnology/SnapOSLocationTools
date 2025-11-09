@@ -10,6 +10,8 @@ There's a hand-locked menu for quick access to the essential data, and a detaile
 
 In addition, it implements Mobile Kit and offers a companion Mobile Kit iOS Xcode project which allows you to pull in location data from your (iOS) mobile device. In my experience, Spectacles '24 is limited in location accuracy (sometimes taking minutes to get below 50m accuracy), so this allows you to use a more accurate location faster while you're developing and testing a Lens.
 
+<img width="412" height="496" alt="Screenshot of the project running in the Lens Studio editor" src="https://github.com/user-attachments/assets/738efd36-0886-4428-96d4-1c8d72219242" />
+
 ## But why?
 
 In essence, because I needed it myself. I've been [working on](https://www.youtube.com/watch?v=85uvuu_vJDA) showing city data in augmented reality on Spectacles, and ran into the limitations of the current hardware, so had to develop this tooling for my own testing. It made sense to share it, as it might be useful for others.
