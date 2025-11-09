@@ -8,7 +8,7 @@ It makes the location & heading data visible both in text and visualised in a ma
 
 There's a hand-locked menu for quick access to the essential data, and a detailed popup menu which shows the full data.
 
-In addition, it implements Mobile Kit and offers a companion Mobile Kit iOS Xcode project which allows you to pull in location data from your (iOS) mobile device. In my experience, Spectacles '24 is limited in location accuracy (sometimes taking minutes to get below 50m accuracy), so this allows you to use a more accurate location faster while you're developing and testing a Lens.
+In addition, it implements Mobile Kit and offers a companion [Mobile Kit iOS Xcode project](https://github.com/siekermantechnology/SnapOSLocationToolsiOS) which allows you to pull in location data from your (iOS) mobile device. In my experience, Spectacles '24 is limited in location accuracy (sometimes taking minutes to get below 50m accuracy), so this allows you to use a more accurate location faster while you're developing and testing a Lens.
 
 <img width="412" height="496" alt="Screenshot of the project running in the Lens Studio editor" src="https://github.com/user-attachments/assets/738efd36-0886-4428-96d4-1c8d72219242" />
 
@@ -92,6 +92,8 @@ Below are some notes on the major parts of the project structure in the Assets f
 ### Mobile Kit
 
 A few notes on Mobile Kit specifically:
+- See the related [SnapOSLocationToolsiOS](https://github.com/siekermantechnology/SnapOSLocationToolsiOS) repository which contains the Xcode project for iOS with the Mobile Kit and location information integration.
+- To use the iOS app, compile the Xcode project and deploy it to an iOS device, grant the location permission, then use the Mobile Kit bind functionality to pair the iOS app and the Spectacles Lens. Once bound, first 'Start Mobile Kit' in the Lens, then in the iOS app start a Mobile Kit session, then start sending subscription messages. This will send the latest location information from the iOS device to the Lens once per second.
 - With the current version of Mobile Kit, I've had trouble with closing the connection, both from the Lens side and from the iOS side, so mine is a very rough implementation, which only starts the connection and just keeps it open until you force close the Lens and iOS app. This is definitely open for future improvement.
 - For smartphones, I've only made the iOS implementation based on the iOS sample app in the relevant Spectacles samples repository. Adding the Android version is another potential future improvement.
 - The iOS app is heavily AI-coded, because my Swift skills are very rusty. It's in ok shape, but I've really focused on just making it work, not how clean everything is.
