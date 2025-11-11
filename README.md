@@ -1,5 +1,7 @@
 # Snap OS Location Tools
 
+<img width="637" height="474" alt="1 HandUI FloatUI without Mobile Kit" src="https://github.com/user-attachments/assets/3188cddd-06eb-492a-9c48-cd87f31fca42" />
+
 ## What is Snap OS Location Tools?
 
 A Lens Studio project for Snap Spectacles + Snap OS, intended for developers that need to work with GPS location and compass heading data on Spectacles '24.
@@ -8,7 +10,27 @@ It makes the location & heading data visible both in text and visualised in a ma
 
 There's a hand-locked menu for quick access to the essential data, and a detailed popup menu which shows the full data.
 
-In addition, it implements Mobile Kit and offers a companion [Mobile Kit iOS Xcode project](https://github.com/siekermantechnology/SnapOSLocationToolsiOS) which allows you to pull in location data from your (iOS) mobile device. In my experience, Spectacles '24 is limited in location accuracy (sometimes taking minutes to get below 50m accuracy), so this allows you to use a more accurate location faster while you're developing and testing a Lens.
+In addition, it implements Mobile Kit and offers a companion [Mobile Kit iOS Xcode project](https://github.com/siekermantechnology/SnapOSLocationToolsiOS) which allows you to pull in location data from your (iOS) mobile device. In my experience, when testing indoors during development Spectacles '24 is limited in location accuracy, so this allows you to use a more accurate location faster while you're developing and testing a Lens. Outdoors I've had mixed results, but there it has been better if you've got good GPS signal.
+
+## Screenshots
+
+The hand-locked UI showing a GPS-based location.
+
+<img width="637" height="667" alt="2 HandUI with GPS" src="https://github.com/user-attachments/assets/71a585d4-565a-485f-a1b3-1d582206df46" />
+
+The floating details UI with a connected iOS device sending Mobile Kit location data from the phone.
+
+<img width="637" height="474" alt="3 Mobile Kit with phone" src="https://github.com/user-attachments/assets/ddb4dd0e-9727-420c-b226-eb8f7bea5650" />
+
+The hand-locked UI and floating details UI combined.
+
+<img width="637" height="476" alt="4 HandUI FloatUI with Mobile Kit" src="https://github.com/user-attachments/assets/eae89d3d-2240-4df5-bad5-55e76f96e084" />
+
+The location permission alert.
+
+<img width="412" height="526" alt="5 Permission alert" src="https://github.com/user-attachments/assets/0d35286b-2e7d-4dbf-a3ae-d766eee090e0" />
+
+The project running in the Lens Studio editor.
 
 <img width="412" height="496" alt="Screenshot of the project running in the Lens Studio editor" src="https://github.com/user-attachments/assets/738efd36-0886-4428-96d4-1c8d72219242" />
 
