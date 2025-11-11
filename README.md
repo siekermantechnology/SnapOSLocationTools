@@ -4,6 +4,8 @@
 
 ## What is Snap OS Location Tools?
 
+See it in action on YouTube at https://www.youtube.com/watch?v=AGLMP8GyEv4 for a quick first impression.
+
 A Lens Studio project for Snap Spectacles + Snap OS, intended for developers that need to work with GPS location and compass heading data on Spectacles '24.
 
 It makes the location & heading data visible both in text and visualised in a map and compass, so you can easily see what Spectacles thinks its location & heading are while you are developing.
